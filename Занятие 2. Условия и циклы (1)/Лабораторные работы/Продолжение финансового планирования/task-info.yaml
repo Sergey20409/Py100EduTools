@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 541
+        length: 559
         placeholder_text: |-
           salary = 5000  # Ежемесячная зарплата
           spend = 6000  # Траты за первый месяц
