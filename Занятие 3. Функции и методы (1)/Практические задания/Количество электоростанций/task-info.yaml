@@ -19,17 +19,17 @@ files:
           
               return count
         selected: false
-        status: Unchecked
-      - offset: 411
-        length: 55
+        status: Solved
+      - offset: 545
+        length: 95
         placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
         initial_state:
           length: 55
           offset: 411
         initialized_from_dependency: false
         encrypted_possible_answer: "count_powerful_powerplants(powerplants, threshold_power)"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 13 Nov 2024 20:35:04 UTC"
 record: -1
